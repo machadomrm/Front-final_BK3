@@ -41,10 +41,10 @@ const Cadastro = (props) => {
         <
         div className = "col" >
         <
-        h3 > Tripulações dos Piratas < /h3> <
-        /div> <
-        /div> <
-        /div> <
+        h3 > Cadastro Personagens OnePiece < /h3>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
         div className = "card-body" >
         <
         form onSubmit = { handleSubmit } >
@@ -59,27 +59,28 @@ const Cadastro = (props) => {
         className = "form-control"
         name = "nome"
         id = "floatingInput"
-        placeholder = "Digite o nome do prato" /
+        placeholder = "Digite o Titulo" /
         >
         <
-        label htmlFor = "floatingInput" > Nome < /label> <
-        /div> <
-        /div> <
-        div className = "col" >
-        <
-        div className = "form-floating" >
-        <
-        input type = "text"
+        label htmlFor = "floatingInput" > Nome do Personagem < /label>{" "} <
+            /div>{" "} <
+            /div>{" "} <
+            div className = "col" >
+            <
+            div className = "form-floating" >
+            <
+            input
+        type = "text"
         className = "form-control"
         name = "ocupacao"
         id = "floatingsalario"
-        placeholder = "Digite os in do prato" /
+        placeholder = "Digite o Salario" /
         >
         <
-        label htmlFor = "floatingsalario" > Ocupação < /label> <
-        /div> <
-        /div> <
-        /div> <
+        label htmlFor = "floatingsalario" > Ocupação < /label>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
         div className = "row" >
         <
         div className = "col" >
@@ -90,13 +91,13 @@ const Cadastro = (props) => {
         className = "form-control"
         name = "frutadodiabo"
         id = "floatingInput"
-        placeholder = "Digite o modo de preparo" /
+        placeholder = "Digite a Descricao" /
         >
         <
-        label htmlFor = "floatingInput" > Fruta do Diabo < /label> <
-            /div> <
-            /div> <
-            /div> <
+        label htmlFor = "floatingInput" > Fruta do Diabo < /label> {}{" "} <
+            /div>{" "} <
+            /div>{" "} <
+            /div>{" "} <
             div className = "row" >
             <
             div className = "col" >
@@ -106,29 +107,29 @@ const Cadastro = (props) => {
             input
         type = "text"
         className = "form-control"
-        name = "imagemUrl"
+        name = "descricao"
         id = "floatingInput"
-        placeholder = "Insira a URL da imagem" /
+        placeholder = "Digite a Descricao" /
         >
         <
-        label htmlFor = "floatingInput" > ImagemUrl < /label> <
-        /div> <
-        /div> <
-        /div> <
+        label htmlFor = "floatingsenioridade" > ImagemUrl < /label>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /div>{" "} <
         div className = "row" >
         <
         div className = "col" >
         <
         button className = "btn btn-success"
         type = "submit" >
-        Enviar <
-        /button> <
-        button className = "btn btn-outline-default" > Voltar < /button> <
-        /div> <
-        /div> <
-        /form> <
-        /div> <
-        /div> <
+        Enviar { " " } <
+        /button>{" "} <
+        button className = "btn btn-outline-default" > Voltar < /button>{" "} <
+        /div>{" "} <
+        /div>{" "} <
+        /form>{" "} <
+        /div>{" "} <
+        /div>{" "} <
         /div>
     );
 };
