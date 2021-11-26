@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
@@ -7,9 +7,10 @@ const Card = (props) => {
     <Link to={`/view/${vaga._id}`} className="col">
       <div className="card">
         <div className="card-body">
-          <h5 className="card-title">{ vaga.titulo }</h5>
-          <span className="badge bg-primary">{ vaga.senioridade }</span>
-          <span className="badge bg-light text-dark">R$ { vaga.salario }</span>
+          <h5 className="card-title">{ vaga.nome }</h5>
+          <span className="badge bg-primary">{ vaga.ocupacao }</span>
+          <span className="badge bg-light text-dark"> { vaga.frutadodiabo }</span>
+          <span className="badge bg-light text-dark"> { vaga.imagemUrl }</span>
         </div>
       </div>
     </Link>
